@@ -52,7 +52,7 @@ ul{
     justify-content: space-between;
 }
 
-li {
+li{
     list-style: none;
 }
 .index{
@@ -91,15 +91,27 @@ main>div h2{
     text-shadow: 0px 0px 7px rgba(227, 163, 72, 0.5);
 }
 
+.ul_list2{
+    display: flex; 
+    justify-content: center;
+}
+
+main>div>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fuel_rats{
+    font-size: larger;
+    color: #eeeeee;
+    text-decoration: none;
+    text-shadow: 0px 0px 7px rgba(227, 163, 72, 0.5);    
+}
+
 p{
     color: #E05600;    
     font-size: 20px;
     margin: 20px;
     line-height: 1.75;
-    display: block;
-}
-
-main>div>img{
-    display: block;
-
+    display: block; 
 }
